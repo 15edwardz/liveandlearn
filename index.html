@@ -3,7 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Podcast Website</title>
+    <title>Live and Learn</title>
+    <meta name="author" content="Edward Zhang" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://raw.githubusercontent.com/15edwardz/15edwardz.github.io/a87ddc1d1fe2b890f7e5316ebf2bcefe191ac983/Images/microphone-lines-solid.svg"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -21,8 +27,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#"
-          ><i class="fa-solid fa-microphone-lines"></i> Live and Learn
-          Podcast
+          ><i class="fa-solid fa-microphone-lines"></i> Live and Learn Podcast
         </a>
 
         <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -305,24 +310,22 @@
 
     <!-- Contact -->
     <section id="contact" class="py-5 pc-only" style="margin-top: -40px">
-        <div class="container containerll">
-            <div class="row">
-              <div class="col-md-12">
-                <h2>Contact Us</h2>
-                <p>
-                  Placeholder
-                </p>
-              </div>
-            </div>
+      <div class="container containerll">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Contact Us</h2>
+            <p>Placeholder</p>
           </div>
+        </div>
+      </div>
     </section>
 
     <!-- Dark Mode Toggle Button -->
     <div class="fixed-bottom m-3">
-        <button type="button" class="btn btn-secondary" onclick="myFunction()">
-          <i class="fa-solid fa-lightbulb"></i>
-        </button>
-      </div>
+      <button type="button" class="btn btn-secondary" onclick="myFunction()">
+        <i class="fa-solid fa-lightbulb"></i>
+      </button>
+    </div>
 
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -331,18 +334,22 @@
     ></script>
 
     <script>
-        function myFunction() {
-          var element = document.body;
-          var elements = document.querySelectorAll('.containerll');
-          
-          element.classList.toggle("dark-mode");
-          
-          elements.forEach(function(el) {
-            el.classList.toggle("dark-cont");
-          });
-        }
-      </script>
-      
+      function myFunction() {
+        var element = document.body;
+        var elements = document.querySelectorAll(".containerll");
 
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  </body>
+        element.classList.toggle("dark-mode");
+
+        elements.forEach(function (el) {
+          el.classList.toggle("dark-cont");
+        });
+      }
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
