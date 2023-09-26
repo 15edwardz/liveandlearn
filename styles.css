@@ -18,7 +18,7 @@ body {
   background-color: #fff;
 }
 .containerll {
-  background-color: rgb(183, 181, 181);
+  background-color: rgb(161, 159, 159);
   padding: 50px;
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -29,7 +29,7 @@ body {
 .containerll h2,
 .containerll h3,
 .containerll p {
-  color: #333;
+  color: rgb(32, 32, 32);
 }
 .btn-primary {
   background-color: #007bff;
