@@ -63,7 +63,7 @@ body {
   transform: scale(1.12);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .col {
     flex-basis: 100% !important;
   }
@@ -72,14 +72,8 @@ body {
   }
 }
 
-@media (min-width: 801px) {
+@media (min-width: 769px) {
   .mobile-only {
     display: none;
   }
-  @media (min-width: 889px) {
-    .mobile-only {
-      display: none;
-    }
-  }
-  
 }
