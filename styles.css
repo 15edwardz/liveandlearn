@@ -49,6 +49,19 @@ body {
     background-color: #fff;
 }
 
+.icenter {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  text-align: center;
+}
+.icons {
+  transition: transform 300ms ease-in-out;
+}
+.icons:hover {
+  transform: scale(1.12);
+}
+
 @media (max-width: 768px) {
   .col {
     flex-basis: 100% !important;
